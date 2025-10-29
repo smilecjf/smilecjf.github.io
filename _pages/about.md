@@ -1,56 +1,71 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am Jincheol Ha, a research engineer at CryptoLab Inc., Korea.
+I am currently working on addressing privacy issues in real-world applications using the CKKS homomorphic encryption scheme.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research interest includes homomorphic encryption schemes such as CKKS and TFHE, the design of symmetric-key primitives for privacy-enhancing technologies (such as homomorphic encryption and zero-knowledge proofs), and the cryptanalysis of symmetric ciphers.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I received my B.S. in Mathematical Sciences and Computer Science (double major) from KAIST, and my M.S. and Ph.D. degrees from the Graduate School of Information Security (GSIS) at KAIST, advised by Prof. [Jooyoung Lee](https://sites.google.com/view/cryptlab/home).
+During my doctoral studies, I worked on improving the practical use of TFHE by proposing a TFHE-friendly cipher named FRAST, and enhancing methods for the homomorphic evaluation in TFHE.
+My thesis is titled "Practical and Efficient Methods to Use the TFHE Scheme".
+I also participated in projects designing symmetric-key primitives integrated with another advanced cryptographic protocols such as MPC-in-the-Head and zero-knowledge proofs.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+Publications
+=====
+Authors are listed in alphabetical order by last name, unless an asterisk(*) is indicated. Two asterisks imply the co-first authors.
+- **Refined TFHE Leveled Homomorphic Evaluation and Its Application**<br/>
+R. Wang(\*), ***J. Ha***(\*), X. Shen, X. Lu, C. Chen, K. Wang, and J. Lee.<br/>
+To appear ACM CCS 2025.
+- **Polocolo: A ZK-Friendly Hash Function Based on S-boxes Using Power Residues**<br/>
+***J. Ha***, S. Hwang, J. Lee, S. Park, and M. Son.<br/>
+The 44th Annual International Conference on the Theory and Applications of Cryptographic Techniques (EUROCRYPT 2025).
+- **FRAST: TFHE-Friendly Cipher Based on Random S-boxes**<br/>
+M. Cho, W. Chung, ***J. Ha***, J. Lee, E. Oh, and M. Son.<br/>
+Transactions on Symmetric Cryptology (ToSC), 2024, Issue 3.
+- **Efficacy and Mitigation of the Cryptanalysis on AIM**<br/>
+S. Kim(\*), ***J. Ha***, M. Son, and B. Lee.<br/>
+The 5th NIST PQC Standardization Conference, 2024.
+- **AIM: Symmetric Primitive for Shorter Signatures with Stronger Security**<br/>
+S. Kim(\*), ***J. Ha***(\*), M. Son, B. Lee, S. Lee, J. Kwon, J. Cho, H. Yoon, and J. Lee.<br/>
+The 30th ACM Conference on Computer and Communications Security (CCS 2023).
+- **Rubato: Noisy Ciphers for Approximate Homomorphic Encryption**<br/>
+***J. Ha***, S. Kim, B. Lee, J. Lee, and M. Son.<br/>
+The 41st Annual International Conference on the Theory and Applications of Crypto-
+graphic Techniques (EUROCRYPT 2022).
+- **Transciphering Framework for Approximate Homomorphic Encryption**<br/>
+J. Cho, ***J. Ha***, S. Kim, B. Lee, J. Lee, J. Lee, D. Moon, and H. Yoon.<br/>
+International Conference on the Theory and Application of Cryptology and Information
+Security (ASIACRYPT 2021).
+- **Masta: An HE-friendly Ciphers Using Modular Arithmetic**<br/>
+***J. Ha***(\*), S. Kim, W. Choi, J. Lee, D. Moon, H. Yoon, and J. Cho.<br/>
+IEEEAccess 2020.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Talks
+=====
+- **Refined TFHE Leveled Homomorphic Evaluation and Its Application**<br/>
+(Invited) 2025 KMS Annual Meeting, Oct. 2025, Seoul, Korea<br/>
+2025 ACM CCS, Oct. 2025, Taipei, Taiwan
+- **FRAST: TFHE-Friendly Cipher Based on Random S-boxes**<br/>
+The 31st Fast Software Encryption Conference, Mar. 2025, Rome, Italy<br/>
+2023 KMS Annual Meeting, Oct. 2023, Seoul, Korea<br/>
+2023 KSIAM Spring Conference, May. 2023, Pyeong Chang, Korea
+- **AIMer**<br/>
+2024 KpqC Winter Camp, Feb. 2024, Seoul, Korea
+- **AIM에 대한 분석 및 대응**<br/>
+KpqC 연구단 7차 워크숍, Nov. 2023, Seoul, Korea
+- **AIMer: ZKP-based Digital Signature**<br/>
+2023 KpqC Winter Camp, Feb. 2023, Seoul, Korea
+- **On the Number of Linearly Independent Boolean Equations of Power Mapping Based S-boxes**<br/>
+(Invited) KIAS, Nov. 2022, Online
+- **Masta: An HE-friendly Cipher Using Modular Arithmetic**<br/>
+2020 KMS Fall Meeting, Oct. 2020, Online
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+(Last update: Oct. 26, 2025)
