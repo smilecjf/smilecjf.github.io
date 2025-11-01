@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Jincheol's Homepage"
 author_profile: true
 redirect_from:
   - /about/
@@ -15,7 +15,7 @@ My research interest includes homomorphic encryption schemes such as CKKS and TF
 I received my B.S. in Mathematical Sciences and Computer Science (double major) from KAIST, and my M.S. and Ph.D. degrees from the Graduate School of Information Security (GSIS) at KAIST, advised by Prof. [Jooyoung Lee](https://sites.google.com/view/cryptlab/home).
 During my doctoral studies, I worked on improving the practical use of TFHE by proposing a TFHE-friendly cipher named FRAST, and enhancing methods for the homomorphic evaluation in TFHE.
 My thesis is titled "Practical and Efficient Methods to Use the TFHE Scheme".
-I also participated in projects designing symmetric-key primitives integrated with another advanced cryptographic protocols such as MPC-in-the-Head and zero-knowledge proofs.
+I also participated in projects designing symmetric-key primitives integrated with another advanced cryptographic protocols such as MPC-in-the-Head ([AIMer signature](https://aimer-signature.org)) and zero-knowledge proofs.
 
 
 Publications
@@ -58,14 +58,10 @@ The 31st Fast Software Encryption Conference, Mar. 2025, Rome, Italy<br/>
 2023 KMS Annual Meeting, Oct. 2023, Seoul, Korea<br/>
 2023 KSIAM Spring Conference, May. 2023, Pyeong Chang, Korea
 - **AIMer**<br/>
-2024 KpqC Winter Camp, Feb. 2024, Seoul, Korea
-- **AIM에 대한 분석 및 대응**<br/>
-KpqC 연구단 7차 워크숍, Nov. 2023, Seoul, Korea
-- **AIMer: ZKP-based Digital Signature**<br/>
-2023 KpqC Winter Camp, Feb. 2023, Seoul, Korea
+"Aimer", 2024 KpqC Winter Camp, Feb. 2024, Seoul, Korea<br/>
+"AIM에 대한 분석 및 대응", KpqC 연구단 7차 워크숍, Nov. 2023, Seoul, Korea<br/>
+"Aimer: ZKP-based Digital Signature", 2023 KpqC Winter Camp, Feb. 2023, Seoul, Korea
 - **On the Number of Linearly Independent Boolean Equations of Power Mapping Based S-boxes**<br/>
 (Invited) KIAS, Nov. 2022, Online
 - **Masta: An HE-friendly Cipher Using Modular Arithmetic**<br/>
 2020 KMS Fall Meeting, Oct. 2020, Online
-
-(Last update: Oct. 26, 2025)
