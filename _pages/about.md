@@ -23,7 +23,7 @@ Publications
 Authors are listed in alphabetical order by last name, unless an asterisk(*) is indicated. Two asterisks imply the co-first authors.
 - **Refined TFHE Leveled Homomorphic Evaluation and Its Application**<br/>
 R. Wang(\*), ***J. Ha***(\*), X. Shen, X. Lu, C. Chen, K. Wang, and J. Lee.<br/>
-To appear ACM CCS 2025.
+The 32nd ACM Conference on Computer and Communications Security (CCS 2025).
 - **Polocolo: A ZK-Friendly Hash Function Based on S-boxes Using Power Residues**<br/>
 ***J. Ha***, S. Hwang, J. Lee, S. Park, and M. Son.<br/>
 The 44th Annual International Conference on the Theory and Applications of Cryptographic Techniques (EUROCRYPT 2025).
