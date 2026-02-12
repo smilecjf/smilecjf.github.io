@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 I am Jincheol Ha, a research engineer at CryptoLab Inc., Korea.
-I am currently working on addressing privacy issues in real-world applications using the CKKS homomorphic encryption scheme.
+From March 2026, I will join School of AI at Soongsil University as an assistant professor.
 
 My research interest includes homomorphic encryption schemes such as CKKS and TFHE, the design of symmetric-key primitives for privacy-enhancing technologies (such as homomorphic encryption and zero-knowledge proofs), and the cryptanalysis of symmetric ciphers.
 
