@@ -7,10 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Jincheol Ha, a research engineer at CryptoLab Inc., Korea.
-From March 2026, I will join School of AI at Soongsil University as an assistant professor.
-
+I am Jincheol Ha, an assistant professor at School of AI & Software, Soongsil University.
 My research interest includes homomorphic encryption schemes such as CKKS and TFHE, the design of symmetric-key primitives for privacy-enhancing technologies (such as homomorphic encryption and zero-knowledge proofs), and the cryptanalysis of symmetric ciphers.
+
+I was a research engineer at [CryptoLab Inc.](https://cryptolab.co.kr), Korea.
+My research at CryptoLab focused on private iris recognition using the CKKS homomorphic encryption scheme.
 
 I received my B.S. in Mathematical Sciences and Computer Science (double major) from KAIST, and my M.S. and Ph.D. degrees from the Graduate School of Information Security (GSIS) at KAIST, advised by Prof. [Jooyoung Lee](https://sites.google.com/view/cryptlab/home).
 During my doctoral studies, I worked on improving the practical use of TFHE by proposing a TFHE-friendly cipher named FRAST, and enhancing methods for the homomorphic evaluation in TFHE.
@@ -47,6 +48,12 @@ Security (ASIACRYPT 2021).
 - **Masta: An HE-friendly Ciphers Using Modular Arithmetic**<br/>
 ***J. Ha***(\*), S. Kim, W. Choi, J. Lee, D. Moon, H. Yoon, and J. Cho.<br/>
 IEEEAccess 2020.
+
+Preprint
+=====
+- **Private Iris Recognition with High-Performance FHE**<br/>
+***J. Ha***(\*), G. Hanrot, T. Noh, JH. Cheon, JW. Kim, and D. Stehlé.<br/>
+arXiv:2601.17561
 
 Talks
 =====
