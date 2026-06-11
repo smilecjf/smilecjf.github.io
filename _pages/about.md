@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Jincheol Ha, an assistant professor at School of AI & Software, Soongsil University.
+I am Jincheol Ha, an Assistant Professor at Soongsil University, where I lead [CryptSPLab](https://ssu-cryptsplab.github.io/) in the Schoole of AI & Software.
 My research interest includes homomorphic encryption schemes such as CKKS and TFHE, the design of symmetric-key primitives for privacy-enhancing technologies (such as homomorphic encryption and zero-knowledge proofs), and the cryptanalysis of symmetric ciphers.
 
 I was a research engineer at [CryptoLab Inc.](https://cryptolab.co.kr), Korea.
