@@ -57,6 +57,8 @@ arXiv:2601.17561
 
 Talks
 =====
+- **Private Iris Recognition with High-Performance FHE**<br/>
+(Invited) PACOH Workshop: Homomorphic Encryption 2026, June 2026, Sokcho, Korea
 - **Refined TFHE Leveled Homomorphic Evaluation and Its Application**<br/>
 (Invited) 2025 KMS Annual Meeting, Oct. 2025, Seoul, Korea<br/>
 2025 ACM CCS, Oct. 2025, Taipei, Taiwan
